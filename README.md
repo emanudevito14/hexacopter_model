@@ -7,7 +7,9 @@ git clone https://github.com/emanudevito14/hexacopter_model.git
  
 ```
 Add hex_6 folder in PX4-Autopilot/Tools/simulation/gz/models
+
 Replace the hexacopter_model's airframes folder with the folder of the same name located at this path PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/
+
 Replace the hexacopter_model's uxrce_dds_client folder with the folder of the same name located at this path PX4-Autopilot/src/modules/
 
 Clone px4_msg in ros2_ws/src
